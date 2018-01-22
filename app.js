@@ -6,6 +6,8 @@ const nunjucks= require('nunjucks');
 const models = require('./models');
 const db = require('./models').db;
 const route = require('./routes');
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 
 
 

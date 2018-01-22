@@ -10,7 +10,7 @@ const Page = db.define('page', {
     },
     urlTitle: {
         type: Sequelize.STRING,
-        allowNull: false
+        allowNull: true
     },
     content: {
         type: Sequelize.TEXT,
